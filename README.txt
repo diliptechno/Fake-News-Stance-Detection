@@ -27,6 +27,7 @@ c) Inorder to make this program work first read the INSTALL.txt and install the 
 
 d) About our code and algorithm:
    
+   
    1) Our programs reads 4 csv files which are mentioned above. These files contains Headlines and bodies for train and test sets along with stances. The programs shows the performance of model as output in the form of Confusion Matrix, Accuracy, Precision, Recall and F-score.
    2) After reading the files we remove the stopwords. This step is common for all the models presented.
    3) For fnc_rf.py, fnc_tfidf.py, and fnc_mlp we have converted the sentences into TF-IDF vectors and for fnc_doc2vec.py we have converted sentences to Document Vectors using Doc2VeC. 
